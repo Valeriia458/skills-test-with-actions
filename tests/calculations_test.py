@@ -85,3 +85,7 @@ def test_get_nth_fibonacci_ten():
    # Act & Assert
    with pytest.raises(ValueError):
       get_nth_fibonacci(n)
+
+      git add .
+      git commit -m "Add 2 new tests for coverage"
+      git push original main
