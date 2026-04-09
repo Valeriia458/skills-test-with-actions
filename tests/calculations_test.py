@@ -73,7 +73,6 @@ def test_get_nth_fibonacci_ten():
    """Test with a negative radius to raise ValueError."""
    # Arrange
    radius = -1
-
    # Act & Assert
    with pytest.raises(ValueError):
       area_of_circle(radius)
