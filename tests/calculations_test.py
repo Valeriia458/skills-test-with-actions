@@ -86,5 +86,5 @@ def test_get_nth_fibonacci_ten():
       get_nth_fibonacci(n)
 
       git add .
-      git commit -m "Add 2 new tests for coverage"
+      git commit -m "2 new tests for coverage"
       git push original main
